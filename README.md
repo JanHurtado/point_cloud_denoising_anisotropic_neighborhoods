@@ -38,39 +38,39 @@ To run our CMakeLists.txt files without applying modifications, the dependencies
 ├──build
 └──dependencies
 	├──cplex
-	│   ├──bin
-	│   │	└──cplex2010.dll
-	│   ├──include
-	│   │	└──ilcplex
-	│	│   	├──cplex.h
-	│	│   	└──...
-	│   └──lib
-	│	   	├──cplex2010.lib
-	│	   	└──cplex2010d.lib
+	│	├──bin
+	│	│	└──cplex2010.dll
+	│	├──include
+	│	│	└──ilcplex
+	│	│		├──cplex.h
+	│	│		└──...
+	│	└──lib
+	│		├──cplex2010.lib
+	│		└──cplex2010d.lib
 	├──Eigen
-	│   └──include
-	│   	└──Eigen
-	│		   	└──src
-	│		   		├──Cholesky
-	│		   		└──...
+	│	└──include
+	│		└──Eigen
+	│			└──src
+	│				├──Cholesky
+	│				└──...
 	├──OpenMesh
-	│   ├──include
-	│   │	└──OpenMesh
-	│	│   	├──Core
-	│	│   	└──Tools
-	│   └── lib
-	│   	├──OpenMeshCore.lib
-	│   	└──OpenMeshCored.lib
+	│	├──include
+	│	│	└──OpenMesh
+	│	│		├──Core
+	│	│		└──Tools
+	│	└── lib
+	│		├──OpenMeshCore.lib
+	│		└──OpenMeshCored.lib
 	└──geogram
 		├──bin
 		│	└──geogram.dll
 		├──include
 		│	└──geogram1
-		│	   	└──geogram
-		│	   		├──api
-		│	   		├──basic
-		│	   		└──...
-		└── lib
+		│		└──geogram
+		│			├──api
+		│			├──basic
+		│			└──...
+		└──lib
 			└──geogram.lib
 ``` 
 You can find in the Release section a zip file with the dependencies compiled with "Visual Studio 15 2017 Win64", excepting the CPLEX dependencies which should be downloaded from [https://www.ibm.com/products/ilog-cplex-optimization-studio](https://www.ibm.com/products/ilog-cplex-optimization-studio). For CPLEX, you can use the free or the academic edition. Just copy the corresponding files from the installation folder as shown in the source tree presented above. We assume that OpenMesh was compiled as an static library, so we do not need a .dll file.
