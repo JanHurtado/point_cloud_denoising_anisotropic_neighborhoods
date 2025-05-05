@@ -2,7 +2,7 @@
 
 ### [Paper] [https://link.springer.com/article/10.1007/s00371-022-02698-6](https://link.springer.com/article/10.1007/s00371-022-02698-6)
 
-### [Executable] [In the release section of this repository](https://git.tecgraf.puc-rio.br/hurtado/point_cloud_denoising_tvcj/-/releases/Paper)
+### [Executable] [In the release section of this repository](https://github.com/JanHurtado/point_cloud_denoising_anisotropic_neighborhoods/releases/tag/v1.0.0)
 
 ## Authors 
 [Jan Hurtado](https://scholar.google.com/citations?user=5WJK29sAAAAJ&hl=es), [Marcelo Gattass](https://scholar.google.com/citations?user=zrRqeM8AAAAJ&hl=en), and [Alberto Raposo](https://scholar.google.com/citations?user=bbNfBlwAAAAJ&hl=en).
